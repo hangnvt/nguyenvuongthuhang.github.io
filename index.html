@@ -4,6 +4,8 @@
 <meta charset="utf-8">
 <title>Untitled Document</title>
 <link href="index.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -15,11 +17,11 @@
 		</nav>
 		<div id="bg">
 		<ul>
-		  	<li>Home</li>
-			<li>About Me</li>
-			<li>Post</li>
-			<li>Style</li>
-			<li>Contact</li>
+		  	<li><a href="#home" class="smoothScroll"></a>Home</li>
+			<li><a href="#about" class="smoothScroll"></a>About Me</li>
+			<li><a href="#post" class="smoothScroll"></a>Post</li>
+			<li><a href="#style" class="smoothScroll"></a>Style</li>
+			<li><a href="#contact" class="smoothScroll"></a>Contact</li>
 			<input type="text" class="ip" placeholder="Search...">
 		</ul>
 <p class="phan_1_p">24 july, 2017</p>
@@ -32,7 +34,7 @@
 	<section id="recentnews">
 		<p class="r-n">Recent News</p>
 		<hr class="hrr-n">
-		<div id="container">
+		<div id="container" data-aos="fade-up">
 			<div class="container1left">
 				<img class="hinh2" src="image/2.png">
 				<button class="cbtn1">Design</button>
@@ -51,7 +53,7 @@
 				<img class="hinh3" src="image/3.png">
 			</div>
 		</div>
-		<div id="container2">
+		<div id="container2" data-aos="flip-left">>
 			<div class="container1left">
 				<img class="hinh2" src="image/4.png">
 				<button class="cbtn1">Design</button>
@@ -80,7 +82,7 @@
 	<section id="Testimonials">
 		<p class="tm">Testimonials</p>
 		<hr class="hrtm">
-		<div class="test">
+		<div class="test" data-aos="zoom-in-down">
 		<div class="t1">
 			<img class="hinh4" src="image/6.png">
 			<p class="p2">Shane Watson</p>
@@ -130,5 +132,11 @@
 			<a href="#"><i class="fab fa-google-plus-g mangxhg"></i></a>
 		</div>
 	</section>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	    <script>
+      AOS.init({
+        easing: 'ease-in-out-sine'
+      });
+    </script>
 </body>
 </html>

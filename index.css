@@ -7,11 +7,11 @@
 	padding: 0;
 }
 body{
-	max-width: 1923px;
+	max-width: 1000px;
 }
 #background{
    	margin: 0 auto;
-  	padding: 0px 866px 0px 50px;
+  	padding: 0px 500px 0px 50px;
 	background-color: #928C8C;
 	height: 1000px;
 }
@@ -27,7 +27,7 @@ ul{
 }
 li{
 	display: inline;	
-	margin: 10px 40px 10px 04px;
+	margin: 10px 30px 10px 04px;
   	font-family: PlayfairDisplay;
   	font-size: 18px;
   	font-weight: normal;
@@ -43,17 +43,17 @@ li{
 	background-color: white;
 	color: black; 
 	font-size: 15px;
-	margin: 5px;
+	margin: 0px;
 	padding: 0;
 	width: 200px;
  	height: 46px;
 	border-radius: 10px;
 }
 #bg{
-	width: 1000px;
+	width: 700px;
   	height: 972px;
   	margin: 0px 0px 19px 500px;
-  	padding: 48px 116px 323px 222px;
+  	padding: 48px 116px 323px 100px;
   	background-color: #ffffff;
 }
 .phan_1_p{
@@ -113,8 +113,8 @@ li{
   color: #ababba;
 }
 .hinh1{
-	width: 780px;
-  	height: 550px;
+	width: 580px;
+  	height: 350px;
 	position: absolute;
 	margin-left: 0;
 	display: block;
@@ -124,13 +124,13 @@ li{
 .hrlogo{
 	width: 101px;
   	height: 2px;
-  	margin: 270px 680px;
+  	margin: 270px 550px;
   	background-color: #734df2;
 	border: none;
 	position:absolute;
 }
 #recentnews{
- width: 1885px;
+ width: 1000px;
   height: 1400px;
   margin: 2px 18px 118px 20px;
   box-shadow: -0.3px 5px 46px 0 rgba(0, 0, 0, 0.03);
@@ -139,7 +139,7 @@ li{
 .r-n{
 	width: 246px;
   height: 29px;
-  margin: 0 auto;
+  margin: 0 500px;
   font-family: PlayfairDisplay;
   font-size: 40px;
   font-weight: bold;
@@ -153,20 +153,20 @@ li{
 .hrr-n{
 	width: 61px;
   	height: 2px;
-  	margin: 30px 900px;
+  	margin: 30px 600px;
   	background-color: #734df2;
 	border: none;
 	position:absolute;
 }
 #container{
 	display: table;
-	margin-left: 300px;
+	margin-left: 20px;
 	margin-top: 80px;
 	max-height: 500px;
 }
 #container2{
 	display: table;
-	margin-left: 300px;
+	margin-left: 20px;
 	margin-top: 80px;
 	max-height: 500px;
 }
@@ -290,7 +290,7 @@ li{
 .p1{
 	width: 400px;
   height: 18px;
-  margin: 0 auto;
+  margin: 0 450px;
 	padding: 50px;
   font-family: Raleway;
   font-size: 18px;
@@ -303,7 +303,7 @@ li{
   color: #222222;
 }
 #Testimonials{
-	 width: 1885px;
+	 width: 1000px;
   height: 600px;
   margin: 350px 18px 0px 20px;
   box-shadow: -0.3px 5px 46px 0 rgba(0, 0, 0, 0.03);
@@ -312,12 +312,12 @@ li{
 .test{
 	display: table;
 	padding: 50px;
-	padding-left: 300px;
+	padding-left: 50px;
 }
 .tm{
 	width: 246px;
   height: 29px;
-  margin: 0 auto;
+  margin: 0 550px;
   font-family: PlayfairDisplay;
   font-size: 40px;
   font-weight: bold;
@@ -332,7 +332,7 @@ li{
 .hrtm{
 	width: 61px;
   	height: 2px;
-  	margin: 30px 900px;
+  	margin: 30px 650px;
   	background-color: #734df2;
 	border: none;
 	position:absolute;
@@ -390,17 +390,17 @@ border: none
 }
 .social{
 	margin: 0 auto;
-	padding-left: 500px;
+	padding-left: 250px;
 
 }
 .s1{
-	padding:50px;
+	padding: 30px;
 }
 #newsletter{
-	width: 1920px;
+	width: 1000px;
   height: 10px;
   margin: 120px 1px 1px 2px;
-  padding: 109px 444px 109px 443px;
+  padding: 30px 444px 80px 443px;
   background-color: #734df2;
 }
 .pnews{
@@ -414,7 +414,7 @@ border: none
   font-style: normal;
   line-height: 0.93;
   letter-spacing: 1.05px;
-  text-align: center;
+  text-align: 300px;
   color: #fffefe;
 	float: left;
 }
@@ -441,6 +441,7 @@ border: none
 }
 #footer{
 	text-align: center;
+	margin-left: 300px;
 }
 .ipf{
 	border: solid 1px #9b9b9b;
@@ -458,27 +459,32 @@ border: none
 	padding-top: 10px;
 }
 .mangxhf{
-	color: white;
+	color: black;
 	font-size: 15px;
 	padding-right: 30px;
 }
 .mangxhi{
-	color: white;
+	color: black;
 	font-size: 15px;
 	padding-right: 30px;
 }
 .mangxht{
-	color: white;
+	color: black;
 	font-size: 15px;
 	padding-right: 30px;
 }
 .mangxhb{
-	color: white;
+	color: black;
 	font-size: 15px;
 	padding-right: 30px;
 }
 .mangxhg{
-	color: white;
+	color: black;
 	font-size: 15px;
 	padding-right: 30px;
+}
+@media screen and (max-width: 375px){
+	#background{
+		
+	}
 }
