@@ -484,9 +484,7 @@ border: none
 	padding-right: 30px;
 }
 @media screen and (max-width: 376px){
-	body{
-	max-width: 375px;
-}
+	
 #background{
    	margin: 0 auto;
   	padding: 0px 187px 0px 10px;
